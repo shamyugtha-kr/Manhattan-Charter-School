@@ -1,0 +1,407 @@
+body{
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+
+  }
+
+a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    background-color: black;
+    z-index: 1;
+    
+
+  }
+  
+header ul {
+
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    margin-bottom: 0;
+    gap:25px;
+    list-style: none;
+    
+  }
+.banner{
+
+    background-image: url('girls.svg'); 
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    z-index:-1;
+
+}
+
+.banner-content{
+    
+    padding-top: 241px;
+    text-align: center;
+    color: #fff;
+    width: 63%;
+    gap: 16px;
+    margin: 0 auto;
+
+}
+
+.banner h1{
+
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 70px;
+
+  }
+
+p{
+
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 3%;
+
+  }
+
+.banner-content button{
+
+    width: 230px;; 
+    height: 56px; 
+    margin: 0 auto; 
+    border: 2px solid rgba(255, 255, 255, 1);
+    color: #ffff;
+    background-color: transparent; 
+    cursor: pointer;
+    padding: 16px, 20px, 16px, 20px;
+    border-radius: 7px;
+    gap: 10px;
+    font-size: 20px;
+
+}
+
+.welcome h1{
+
+    font-family: Playfair display;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    color: #000;
+
+}
+.welcome p{
+    width: fit-content;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    
+}
+.welcome{
+
+    width: 78%;
+    margin: 0 auto;
+    
+
+}
+
+.courses{
+
+    width: 100%;
+    background: rgba(242, 242, 242, 1);
+}
+
+.courses h1{
+  
+    font-family: Playfair display;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 4%;
+    padding-bottom: 2%;
+
+}
+.innercourses{
+
+    width: 88%;
+    padding: 10px 0px 50px 0;
+    margin: 0 auto;
+
+}
+
+.widgets img{
+
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 6px 6px 0 0;
+
+  }
+
+.widgetsgrid{
+ 
+    gap: 30px;
+    display: flex;
+   
+  }
+
+.widgets{
+
+    background: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+  }
+
+t1{
+
+    width: 105px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 20px ;
+  
+  }
+
+.widgets p{
+
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+  }
+
+.core{
+    width: 88%;
+    padding: 50px 0px 50px 0;
+    margin: 0 auto;
+    gap: 32px;
+}
+.curriculam h1{
+    font-family: playfair disply;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    
+   
+
+}
+
+.curriculam h2{
+    font-family: Inter, sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+padding-top: 30px;
+
+
+}
+.curriculam p{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+padding-top: 15px;
+
+}
+.strength img{
+
+    width: 100%;
+
+}
+.events{
+  width: 88%;
+  padding: 50px 0px 50px 0;
+  margin: 0 auto;
+  gap: 32px;
+  
+}
+.events h1{
+  font-family: playfair disply;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 15px;
+  
+}
+.upcomeve{
+  font-family: playfair display;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.para h2{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 1);
+
+}
+
+.para p1{
+  font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+color: rgba(84, 84, 84, 1);
+}
+.wholecon{
+  display: flex;
+  padding: 10px 0; 
+  
+}
+.inupcomeve{
+  padding: 10px 0;
+  
+}
+.para{
+  padding: 0 20px;
+  
+  
+}
+.inpara{
+  max-height: 80px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; 
+  }
+  
+  .artshow{
+    width: 100%;
+  }
+
+.tours{
+  width: 100%;
+
+background: rgba(242, 242, 242, 1);
+
+}
+.vid{
+  width: 100%;
+}
+.intours{
+  width: 100%;
+  padding: 70px 30px ;
+}
+.paratour h1{
+  font-family: Publico Banner Web;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+color: rgba(0, 0, 0, 1);
+}
+.inparatour p{
+  width: 100%;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: rgba(84, 84, 84, 1);
+  padding: 3%;
+  text-align: justify;
+}
+.feeds{
+  width: 100%;
+}
+.feeds h1{
+  font-family: playfair display;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+color: #000000;
+padding: 50px 0 25px 100px;
+}
+.infeeds{
+  margin: 0 auto;
+  width: 86%;
+  height: auto;
+border-radius: 7px;
+border: 1px;
+gap: 24px;
+border: 1px solid rgba(233, 233, 233, 1);
+box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.47);
+padding-bottom: 15px;
+
+}
+.infeeds .acc{
+ max-width: 100%;
+}
+.infeeds .col{
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  justify-content: center;
+} 
+.infeeds .row{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+
+}
+.infeeds .boy{
+  width: 100%;
+}
+
+.school h1{
+  font-family: playfair display;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
+  padding: 50px 0 25px 100px;
+
+}
+.inschools h1{
+  font-family: playfair display;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 1);
+  padding-top: 20px;
+ padding-left: 0;
+  
+}
+.inschools p{
+  font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+color: rgba(84, 84, 84, 1); 
+text-align: left;
+}
+
+.inschools .map{
+ width: 100%;
+}
+.contact img{
+  width: 100%;
+}
